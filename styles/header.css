@@ -47,3 +47,18 @@ header.top {
     border-radius: 50%;
   }
 }
+
+@media (max-width: 480px) {
+  header.top {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    padding: 1rem 0;
+
+    a span {
+      top: -0.4rem;
+      right: -0.4rem;
+    }
+  }
+}

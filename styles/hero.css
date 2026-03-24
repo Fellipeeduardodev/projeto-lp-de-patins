@@ -139,6 +139,66 @@ section.hero {
   }
 }
 
+@media (max-width: 480px) {
+  section.hero {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding: 2rem 0;
+    text-align: left;
+    align-items: flex-start;
+
+    & h1 {
+      max-width: 100%;
+      font-size: var(--text-xl);
+    }
+
+    & h1 div {
+      height: 3rem;
+    }
+
+    & .buttons {
+      width: 100%;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 1.5rem;
+
+      & .button {
+        justify-content: center;
+        width: auto;
+        min-width: 0;
+      }
+
+      & .button.buy {
+        width: min(15rem, 100%);
+        padding: 1.25rem 2.5rem;
+        align-self: center;
+        margin-bottom: 2rem;
+      }
+    }
+
+    & > div:nth-child(2) {
+      max-width: 18rem;
+      height: 18rem;
+      margin-inline: auto;
+
+      & img[src*="stars"] {
+        display: block;
+        inset: initial;
+      }
+
+      & img[src*="stars-1"] {
+        top: 25%;
+        left: -0.5rem;
+      }
+
+      & img[src*="stars-2"] {
+        right: -0.25rem;
+        bottom: 30%;
+      }
+    }
+  }
+}
+
 @keyframes SlideIn {
   50% {
     transform: translateX(-20px);

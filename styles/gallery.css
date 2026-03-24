@@ -104,6 +104,43 @@ section.gallery {
   }
 }
 
+@media (max-width: 480px) {
+  section.gallery {
+    padding: 2rem 0;
+
+    & .content {
+      grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D";
+      gap: 1.5rem;
+    }
+
+    & figure > img {
+      height: min(60vw, 18rem);
+    }
+
+    & figcaption {
+      font-size: 0.75rem;
+      padding: 1rem 1.5rem;
+      justify-content: flex-end;
+    }
+  }
+}
+
+@media (hover: none) {
+  section.gallery {
+    & figure:hover > img {
+      scale: 1;
+    }
+
+    & figure figcaption {
+      transform: translateY(0);
+    }
+  }
+}
+
 @keyframes image-appear {
   from {
     opacity: 0;

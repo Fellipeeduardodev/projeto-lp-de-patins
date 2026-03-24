@@ -104,3 +104,28 @@ footer {
     }
   }
 }
+
+@media (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    gap: 1.25rem;
+    text-align: left;
+    padding: 3rem 0 2rem;
+    align-self: flex-start;
+
+    & .logo {
+      align-self: flex-start;
+    }
+
+    & nav {
+      flex-direction: column;
+      gap: 0.5rem;
+      align-self: flex-start;
+    }
+
+    & .social-links {
+      align-self: flex-start;
+      gap: 0.5rem;
+    }
+  }
+}

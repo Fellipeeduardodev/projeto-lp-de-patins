@@ -29,6 +29,17 @@
   }
 }
 
+@media (max-width: 480px) {
+  .banner {
+    padding-block: 1.5rem;
+
+    .rolling {
+      gap: 1rem;
+      animation-duration: 3s;
+    }
+  }
+}
+
 @keyframes bg-gradient {
   50% {
     background-position: 100% 50%;
