@@ -1,68 +1,46 @@
-🛼 Landing Page de Patins
+# 🛼 Landing Page de Patins
 
-Projeto desenvolvido com foco em Front-End, criando uma landing page moderna, responsiva e visualmente atrativa para apresentação de patins.
+Uma landing page moderna e responsiva desenvolvida com foco em **Front-End**, destacando design visual, usabilidade e boas práticas de estruturação.
 
-🚀 Sobre o Projeto
+---
 
-Esta aplicação consiste em uma landing page voltada para divulgação de produtos relacionados a patins, com foco em:
+## 🚀 Sobre o Projeto
 
-Design moderno
-Experiência do usuário (UI/UX)
-Responsividade
-Estrutura semântica
+Este projeto consiste na criação de uma **landing page para divulgação de patins**, com foco em apresentar o produto de forma atrativa e funcional.
 
-O projeto foi desenvolvido como prática de habilidades em desenvolvimento web, utilizando tecnologias base do front-end. Projetos assim são comuns em cursos e treinamentos para reforçar fundamentos de HTML e CSS .
+A aplicação foi construída com o objetivo de praticar conceitos essenciais do desenvolvimento web, como:
 
-🧠 Objetivo
-Praticar HTML e CSS na construção de páginas reais
-Criar layouts modernos e responsivos
-Trabalhar conceitos de design (UI/UX)
-Simular um projeto de portfólio profissional
-🛠️ Tecnologias Utilizadas
-HTML5
-CSS3
-Git & GitHub
-🎨 Layout
+- Estruturação semântica com HTML  
+- Estilização moderna com CSS  
+- Responsividade para diferentes dispositivos  
+- Princípios de UI/UX  
 
-O design da aplicação segue um estilo:
+---
 
-Minimalista
-Visual atrativo
-Focado em conversão (landing page)
+## 🧠 Objetivo
 
-Caso tenha usado Figma, você pode adicionar aqui:
+- Desenvolver habilidades em HTML e CSS  
+- Criar interfaces modernas e responsivas  
+- Aplicar conceitos de design e experiência do usuário  
+- Construir um projeto para portfólio  
 
-# Link do protótipo (opcional)
-📱 Responsividade
+---
 
-O projeto foi desenvolvido para funcionar em diferentes dispositivos:
+## 🛠️ Tecnologias Utilizadas
 
-📱 Mobile
-💻 Desktop
-📟 Tablets
-⚙️ Como Executar o Projeto
-# Clone o repositório
-git clone https://github.com/Fellipeeduardodev/projeto-lp-de-patins
+- HTML5  
+- CSS3  
+- Git & GitHub  
 
-# Acesse a pasta
-cd projeto-lp-de-patins
+---
 
-# Abra o arquivo index.html no navegador
-📂 Estrutura do Projeto
-📦 projeto-lp-de-patins
- ┣ 📂 assets
- ┣ 📂 css
- ┣ 📂 images
- ┣ 📜 index.html
- ┗ 📜 style.css
-
-(Ajuste conforme sua estrutura real)
 
 ✨ Funcionalidades
 Página inicial com destaque visual
 Seções organizadas (hero, produtos, etc.)
 Design responsivo
 Navegação simples e intuitiva
-📸 Preview
 
-Adicione prints do projeto aqui 👇
+## 📚 Créditos
+
+Projeto desenvolvido durante o curso de Fullstack da Rocketseat.
