@@ -35,6 +35,10 @@ html {
   zoom: 0.6;
 }
 
+figure {
+  margin: 0;
+}
+
 h1,
 h2 {
   font-family: "Syne", sans-serif;
